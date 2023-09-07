@@ -8,10 +8,10 @@ form.addEventListener("submit",check)
 
 function check(e){
 	 e.preventDefault()
-	 if (isNaN(age) || age === 0 || name.trim() === '') {
-                alert('Both age and name fields are required.');
-                return;
-            }
+	 // if (isNaN(age) || age === 0 || name.trim() === '') {
+  //               alert('Both age and name fields are required.');
+  //               return;
+  //           }
 	let age1=age.value
 	let name1=nam.value
 	let promise = new Promise((resolve,reject)=>{
