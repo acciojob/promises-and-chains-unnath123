@@ -30,7 +30,7 @@ function check(e){
 		alert("Welcome, "+data+". You can vote.")
 	})
 	.catch((error)=>{
-		alert("Oh sorry "+error+". You aren't old enough")
+		alert("Oh sorry "+error+". You aren't old enough.")
 	})
 	
 	// return promise
